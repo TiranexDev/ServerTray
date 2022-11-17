@@ -10,7 +10,7 @@ app.whenReady().then(function () {
 
   tray.setContextMenu(Menu.buildFromTemplate([
     { label: 'About', click: function () {
-        shell.openExternal('https://github.com/TiranexDev/RaspberryTray');
+        shell.openExternal('https://github.com/TiranexDev/ServerTray');
     } },
     { label: 'Reload', click: function () {
         Validate(tray, false)
